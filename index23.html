@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.N.S Institute Of Technology</title>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Ensure html and body take full height */
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #000;
+        }
+
+        h1 {
+            color: red;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+            background: #1c1c1c;
+        }
+
+        .presenters, .topic {
+            max-width: 1200px;
+            margin: 0 auto 40px auto;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 8px;
+        }
+
+        .presenters h3, .topic h2 {
+            text-align: center;
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+
+        .presenters p {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .topic img {
+            width: 70%; /* Reduced size for the topic-related image */
+            height: auto;
+            margin: 20px auto 10px auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .info {
+            font-family: "Times New Roman", Times, serif;
+            color: white;
+            margin: 20px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #000;
+        }
+
+        .footer a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .presenters, .topic {
+                padding: 15px;
+            }
+
+            .presenters p, .topic h2 {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>K.N.S Institute Of Technology</h1>
+        <img src="https://college4u.in/wp-content/uploads/2018/05/knsit.jpg" alt="K.N.S Institute Of Technology Campus">
+    </header>
+    <div class="container">
+        <div class="presenters">
+            <h3>Presented By:</h3>
+            <p>KUNDAVI S (1KN22CD022)</p>
+            <p>NIKITHA R (1KN22CD038)</p>
+            <p>MANISH CHAUDHARY (1KN22CD027)</p>
+            <p>MD HASAN KAZMI (1KN22CD034)</p>
+        </div>
+        <div class="topic">
+            <h2>Project Topic: Online Payment Fraud Detection Using Machine Learning</h2>
+            <img src="https://www.paycron.com/wp-content/uploads/2024/01/the-Power-of-AI-and-ML-in-Online-Payment-Fraud-Detection.jpg" alt="Online Payment Fraud Detection">
+            <div class="info">
+                Online payment fraud detection using machine learning involves leveraging algorithms to identify and prevent fraudulent transactions. 
+                Machine learning models analyze patterns in historical transaction data to detect anomalies and flag suspicious activities in real time. 
+                Techniques like logistic regression, decision trees, and deep learning are commonly used. Key features include transaction amount, user location, 
+                device details, and behavioral data. This approach improves accuracy, reduces false positives, and adapts to evolving fraud tactics effectively.
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Click the link below to open the project in Visual Studio Code:</p>
+        <a href="vscode://file/C:/projectff/trying.ipynb" target="_blank">Open in Visual Studio Code</a>
+    </footer>
+</body>
+</html>
